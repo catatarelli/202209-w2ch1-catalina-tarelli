@@ -6,11 +6,13 @@
   "scripts": {
     "compiler-css": "sass source/sass/styles.scss public/css/styles.css",
     "compiler-css:dev": "sass --watch source/sass/styles.scss public/css/styles.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "husky": "^8.0.0"
   }
 }
