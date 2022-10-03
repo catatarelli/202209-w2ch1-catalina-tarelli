@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compiler-css": "sass source/sass/styles.scss public/css/styles.css",
+    "compiler-css:dev": "sass --watch source/sass/styles.scss public/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }
