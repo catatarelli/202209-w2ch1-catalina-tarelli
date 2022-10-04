@@ -1,0 +1,14 @@
+@use "./variables/variables-preview-card-component";
+
+.card-section {
+  color: #fff;
+  &--light {
+    background-color: variables-preview-card-component.$background-color-light;
+  }
+  &--medium {
+    background-color: variables-preview-card-component.$background-color-medium;
+  }
+  &--dark {
+    background-color: variables-preview-card-component.$background-color-dark;
+  }
+}
